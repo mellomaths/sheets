@@ -1,0 +1,23 @@
+{
+  "name": "sheets",
+  "version": "1.0.0",
+  "description": "A server that uses Google Sheets as Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://406fce289bc719a1effca5e5131d3fb67b6b9745@github.com/mellomaths/sheets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mellomaths/sheets/issues"
+  },
+  "homepage": "https://github.com/mellomaths/sheets#readme",
+  "dependencies": {
+    "googleapis": "^73.0.0"
+  }
+}
