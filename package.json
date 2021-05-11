@@ -4,7 +4,8 @@
   "description": "A server that uses Google Sheets as Database",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,11 @@
   },
   "homepage": "https://github.com/mellomaths/sheets#readme",
   "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
     "googleapis": "^73.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
